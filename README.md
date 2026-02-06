@@ -35,7 +35,6 @@ Screenshots included in this project demonstrate the following:
 - Windows 10 domain join
 - Successful domain user login
 
-(All screenshots are stored in the `/images` folder.)
 
 ---
 
