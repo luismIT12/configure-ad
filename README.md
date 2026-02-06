@@ -21,21 +21,6 @@ This project highlights foundational Windows Server and identity management skil
 - Active Directory Domain Services (AD DS)
 - DNS
 - Microsoft Azure Virtual Machines
-
----
-
-## Media
-
-Screenshots included in this project demonstrate the following:
-- Azure resource group and virtual machines
-- Active Directory Domain Services installation
-- Domain controller promotion
-- Organizational Units creation
-- User and group creation
-- Windows 10 domain join
-- Successful domain user login
-
-
 ---
 
 ## Demonstration
