@@ -2,69 +2,67 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+# Configuring On-Premises Active Directory Within Azure Virtual Machines
 
+## Project Summary
+This project follows the CourseCareers IT Support curriculum and demonstrates how to configure an on-premises-style Active Directory environment using Microsoft Azure virtual machines. The lab simulates a traditional enterprise network by deploying a domain controller, creating users and groups, and joining a client computer to the domain.
 
-<h2>Video Demonstration</h2>
+This project highlights foundational Windows Server and identity management skills used in real-world IT environments.
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
+### Languages Used
 - PowerShell
 
-<h2>Operating Systems Used </h2>
-
+### Environments Used
+- Microsoft Azure
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+### Technologies / Applications / Services Used
+- Active Directory Domain Services (AD DS)
+- DNS
+- Microsoft Azure Virtual Machines
 
-Step 1: Azure Infrastructure Setup
+---
 
-Created an Azure resource group
+## Media
 
-Configured virtual network and subnet
+Screenshots included in this project demonstrate the following:
+- Azure resource group and virtual machines
+- Active Directory Domain Services installation
+- Domain controller promotion
+- Organizational Units creation
+- User and group creation
+- Windows 10 domain join
+- Successful domain user login
 
-Deployed Windows Server 2019 and Windows 10 virtual machines
+(All screenshots are stored in the `/images` folder.)
 
-Step 2: Active Directory Configuration
+---
 
-Installed Active Directory Domain Services
+## Demonstration
 
-Promoted Windows Server to Domain Controller
+### Step 1: Azure Infrastructure Setup
+- Created Azure virtual machines for the domain controller and client machine
+- Configured internal networking between virtual machines
 
-Created Organizational Units, users, and groups
+### Step 2: Active Directory Installation
+- Installed Active Directory Domain Services on Windows Server
+- Promoted the server to a domain controller
+- Configured DNS during domain setup
 
-Joined Windows 10 VM to the domain
+### Step 3: Domain Configuration
+- Created Organizational Units (OUs)
+- Created domain users and security groups
 
+### Step 4: Client Domain Join
+- Joined the Windows 10 virtual machine to the domain
+- Logged in using a domain user account to verify functionality
 
-<h2>Deployment and Configuration Steps</h2>
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## Skills Demonstrated
+- Windows Server administration
+- Active Directory management
+- User and access control
+- Cloud-hosted lab environments
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
