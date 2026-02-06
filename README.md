@@ -24,10 +24,47 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+Step 1: Azure Infrastructure Setup
+
+Created an Azure resource group
+
+Configured virtual network and subnet
+
+Deployed Windows Server 2019 and Windows 10 virtual machines
+
+Step 2: Active Directory Configuration
+
+Installed Active Directory Domain Services
+
+Promoted Windows Server to Domain Controller
+
+Created Organizational Units, users, and groups
+
+Joined Windows 10 VM to the domain
+
+Step 3: osTicket Prerequisites and Installation
+
+Installed IIS on Windows Server
+
+Configured PHP and MySQL
+
+Installed osTicket and completed initial setup
+
+Step 4: osTicket Configuration
+
+Created departments and agents
+
+Configured user roles and permissions
+
+Enabled ticket email settings (optional)
+
+Step 5: Help Desk Demonstration
+
+Submitted a ticket from a client user
+
+Assigned ticket to an agent
+
+Resolved ticket and documented resolution
 
 <h2>Deployment and Configuration Steps</h2>
 
