@@ -42,29 +42,6 @@ Created Organizational Units, users, and groups
 
 Joined Windows 10 VM to the domain
 
-Step 3: osTicket Prerequisites and Installation
-
-Installed IIS on Windows Server
-
-Configured PHP and MySQL
-
-Installed osTicket and completed initial setup
-
-Step 4: osTicket Configuration
-
-Created departments and agents
-
-Configured user roles and permissions
-
-Enabled ticket email settings (optional)
-
-Step 5: Help Desk Demonstration
-
-Submitted a ticket from a client user
-
-Assigned ticket to an agent
-
-Resolved ticket and documented resolution
 
 <h2>Deployment and Configuration Steps</h2>
 
