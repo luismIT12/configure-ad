@@ -5,7 +5,7 @@
 # Configuring On-Premises Active Directory Within Azure Virtual Machines
 
 ## Project Summary
-This project follows the CourseCareers IT Support curriculum and demonstrates how to configure an on-premises-style Active Directory environment using Microsoft Azure virtual machines. The lab simulates a traditional enterprise network by deploying a domain controller, creating users and groups, and joining a client computer to the domain.
+This project follows IT Support curriculum and demonstrates how to configure an on-premises-style Active Directory environment using Microsoft Azure virtual machines. The lab simulates a traditional enterprise network by deploying a domain controller, creating users and groups, and joining a client computer to the domain.
 
 This project highlights foundational Windows Server and identity management skills used in real-world IT environments.
 
