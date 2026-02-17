@@ -26,9 +26,10 @@ This project highlights foundational Windows Server and identity management skil
 ## Demonstration
 
 ### Step 1: Azure Infrastructure Setup
-- Created Azure virtual machines for the domain controller and client machine
+- Created Azure virtual machines for the domain controller using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
 
+- Create Azure virtual machine for client using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e12d6b5c-3a1f-48ec-a65a-0be1ad5608aa" />
 
 
