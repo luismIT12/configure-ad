@@ -76,9 +76,4 @@ This project highlights foundational Windows Server and identity management skil
 
 ---
 
-## Skills Demonstrated
-- Windows Server administration
-- Active Directory management
-- User and access control
-- Cloud-hosted lab environments
 
