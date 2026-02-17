@@ -28,7 +28,7 @@ This project highlights foundational Windows Server and identity management skil
 ## Step 1 : Step 1 — Create an Azure Account
 
 Go to the Microsoft cloud platform at: https://portal.azure.com
-Click Start free or Sign in, Log in with a Microsoft account (Outlook/Hotmail works)
+Click Start free or Sign in, Log in with a Microsoft account ,  (Outlook/Hotmail works)
 
 Complete the following : Identity verification ,Phone verification ,Credit/debit card (for validation — free tier credits are provided)
 
