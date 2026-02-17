@@ -25,6 +25,15 @@ This project highlights foundational Windows Server and identity management skil
 
 ## Demonstration
 
+## Step 1 : Step 1 — Create an Azure Account
+
+Go to the Microsoft cloud platform at: https://portal.azure.com
+Click Start free or Sign in, Log in with a Microsoft account (Outlook/Hotmail works)
+
+Complete the following : Identity verification ,Phone verification ,Credit/debit card (for validation — free tier credits are provided)
+
+Once finished, you’ll land in the Azure Portal Dashboard
+
 ### Step 1: Azure Infrastructure Setup
 - Created Azure virtual machines for the domain controller using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
