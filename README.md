@@ -155,6 +155,16 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/9d2c0d3f-6d27-4d09-987d-67ef1d6d5298" />
 
 
+- Next we can login to our client-1 VM then run a ping command to ensure we set have sucessfully configured our Network settings
+- open up powershell
+- type ping 10.0.0.4 and click enter
+- you should get a reply , if you did, then its working
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/d4b4bba3-1e4b-491c-9bcc-33e348f6b244" />
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/8660d453-356d-463f-86d0-53cb3fbff27f" />
+
+
 
 
 
