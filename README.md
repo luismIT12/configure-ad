@@ -77,8 +77,16 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f8b3402b-4cd9-4ebc-b738-969198b4863d" />
 
 - Once it's been selected, we click create on top left
-- 
+   - Subscription : you select your own base on account
+  - Resource group : select the one we created
+  - virtual name : create one base on your choice (ex: DC-1)
+  - Region : select your region
+  - zone : Zone 1
+  - size : at least 2 vcpu!
+  - Then we click create!
 
+
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/97b35d5b-501e-4361-b8c6-848c9888fedc" />
 
 
 - Created Azure virtual machines for the domain controller using :
