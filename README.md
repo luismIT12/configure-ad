@@ -45,11 +45,11 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6a81ae77-5837-4dd9-b89f-3eb7f4da59b1" />
 
 - Once resource group is selected, now we fill in our parameters for the creating of the group:
-- Subscription : you select your own base on account
-- Resource group name : you could name whatever you like , (Ex: Active-Dir-Lab)
-- Region : select your region
+  - Subscription : you select your own base on account
+  - Resource group name : you could name whatever you like , (Ex: Active-Dir-Lab)
+  - Region : select your region
   
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/86c12fdd-27b6-4db1-be5c-a073ff8f42ad" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/86c12fdd-27b6-4db1-be5c-a073ff8f42ad" />
 
 
   
