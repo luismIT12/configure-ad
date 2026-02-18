@@ -118,18 +118,56 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   -   subnet : defualt 
   - we click create !
  
-  - <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/38e7b47c-07b2-4743-90af-dce9663ecf98" />
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/38e7b47c-07b2-4743-90af-dce9663ecf98" />
 
     <img width="615" height="400" alt="image" src="https://github.com/user-attachments/assets/61e3ab22-776e-481b-aade-bd5443524e39" />
 
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/890d4e5c-52c2-4b37-bd2a-4a1e77c48ae8" />
 
 
-- Configured internal networking between virtual machines
+    
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b99dd306-19ba-4403-9b86-0f051880f0be" />
+- Set Domain controller Ip address to static, open up DC-1 and the left select under networking -> network settings
+
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b6ecf9ac-ff1c-4a07-b9a5-62b723414a15" />
+
+  - Next we select the network interface card settings
+  - click ip config bottom left corner
+  - set it to static and click save
+    
+   <img width="546" height="102" alt="image" src="https://github.com/user-attachments/assets/835c056f-bd79-4ebb-8d98-36a63dea4b95" />
+
+   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4f3dbb9d-af4f-48e7-8b93-0e54f6ec27d1" />
+
+   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/c066dd5d-a251-4186-9bb2-77f881095850" />
+
+- Next we change the client-1's Dns settings to  to DC-1's private IP adress, click on Dc-1, to the right copy the private Ip
+
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1784bf73-03ff-4d2c-9c00-a26ac948d377" />
+
+- Next open up Client-1 and the left select under networking -> network settings, click on the network card
+- We click on the left DNS settings, then select custom , paste our IP from DC-1 (10.0.0.4) then click save
+
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a49c9d86-dfdf-4b28-9ac2-dd76f1c41043" />
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/623e6a14-6dbb-4965-92bc-8fc900a073ef" />
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9d2c0d3f-6d27-4d09-987d-67ef1d6d5298" />
 
 
-### Step 2: Active Directory Installation
+
+
+
+
+
+
+
+
+
+ 
+
+
+### Step 3: Active Directory Installation
 - Installed Active Directory Domain Services on Windows Server
   
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/19135c8a-e185-4910-bd72-48b26de161e9" />
