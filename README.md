@@ -56,18 +56,23 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/86c12fdd-27b6-4db1-be5c-a073ff8f42ad" />
 
 
-- Next we Create Virtual network and subet , We Search for virtual network on top and click on it :
+- Next we Create Virtual network and subnet , We Search for virtual network on top and click on it :
+  
   
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/0bc01dcb-997e-48a7-999d-7369ee83391f" />
 
-- Once virtual network is selected, no we fill in our parameters:
+- Once virtual network is selected,we select create then we fill in our parameters:
   - Subscription : you select your own base on account
   - Resource group : select the one we created
   - Virtual network name: create your own name (ex: Active-Dir-VN)
   - Region : select your region
   - Then we click create!
+    
 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dbb206bc-9370-4920-9973-1a1ef0a83d3e" />
+  
+
+- Next we create our Virtual machine for the domain controller :
 
 - Created Azure virtual machines for the domain controller using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
