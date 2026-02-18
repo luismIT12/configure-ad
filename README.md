@@ -191,7 +191,7 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab48be20-bc0c-485c-9a24-a8667ed1365f" />
 
 
-### Step 3: Domain Configuration
+### Step 4: Domain Configuration
 - Created Organizational Units (OUs)
 
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cc9057fa-0cba-475a-a1df-a6dc2daa5198" />
