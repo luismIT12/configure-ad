@@ -84,7 +84,8 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   - zone : Zone 1
   - size : at least 2 vcpu!
   - Create a user name & password for VM
-  - Then we click create!
+  - click next for networking configuration
+  - 
 
 
     <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/97b35d5b-501e-4361-b8c6-848c9888fedc" />
