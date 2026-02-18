@@ -72,7 +72,14 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/dbb206bc-9370-4920-9973-1a1ef0a83d3e" />
   
 
-- Next we create our Virtual machine for the domain controller :
+- Next we create our Virtual machine for the domain controller, we search on top for virtual machine :
+
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f8b3402b-4cd9-4ebc-b738-969198b4863d" />
+
+- Once it's been selected, we click create on top left
+- 
+
+
 
 - Created Azure virtual machines for the domain controller using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
