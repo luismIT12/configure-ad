@@ -146,13 +146,13 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1784bf73-03ff-4d2c-9c00-a26ac948d377" />
 
 - Next open up Client-1 and the left select under networking -> network settings, click on the network card
-- We click on the left DNS settings, then select custom , paste our IP from DC-1 (10.0.0.4) then click save
+- We click on the left DNS servers, then select custom , paste our IP from DC-1 (10.0.0.4) then click save
 
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/a49c9d86-dfdf-4b28-9ac2-dd76f1c41043" />
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/623e6a14-6dbb-4965-92bc-8fc900a073ef" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/623e6a14-6dbb-4965-92bc-8fc900a073ef" />
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9d2c0d3f-6d27-4d09-987d-67ef1d6d5298" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/9d2c0d3f-6d27-4d09-987d-67ef1d6d5298" />
 
 
 
