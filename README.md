@@ -34,9 +34,11 @@ Complete the following : Identity verification ,Phone verification ,Credit/debit
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b104bcc-0b22-458c-8c05-237e893adfdf" />
 
+Once finished, you’ll land in the Azure Portal Dashboard like the image below :
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb9159f3-b917-49f1-9bdc-1a5f43cd0822" />
 
 
-Once finished, you’ll land in the Azure Portal Dashboard
 
 ### Step 1: Azure Infrastructure Setup
 - Created Azure virtual machines for the domain controller using :
