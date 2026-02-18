@@ -39,8 +39,12 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb9159f3-b917-49f1-9bdc-1a5f43cd0822" />
 
 
+### Step 2: Azure Infrastructure Setup
 
-### Step 1: Azure Infrastructure Setup
+- Create resource group through azure by searching for resource group at the top :
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6a81ae77-5837-4dd9-b89f-3eb7f4da59b1" />
+
+  
 - Created Azure virtual machines for the domain controller using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
 
