@@ -97,10 +97,31 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
     <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/890d4e5c-52c2-4b37-bd2a-4a1e77c48ae8" />
 
+    
 
+- Next we create our Virtual machine for the client controller, we search on top for virtual machine :
+ <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f8b3402b-4cd9-4ebc-b738-969198b4863d" />
 
-- Create Azure virtual machine for client using :
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e12d6b5c-3a1f-48ec-a65a-0be1ad5608aa" />
+ 
+- Once it's been selected, we click create on top left
+   - Subscription : you select your own base on account
+  - Resource group : select the one we created
+  - virtual name : create one base on your choice (ex: Client-1)
+  - Region : select your region
+  - image: select windows 10 enterprise
+  - secuirty : standard
+  - zone : Zone 1
+  - size : at least 2 vcpu!
+  - Create a user name & password for VM
+  - Next till we get to network
+  -   Virtual network : we slecect the one we created
+  -   subnet : defualt 
+  - we click create !
+ 
+  - <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/38e7b47c-07b2-4743-90af-dce9663ecf98" />
+
+    <img width="615" height="400" alt="image" src="https://github.com/user-attachments/assets/61e3ab22-776e-481b-aade-bd5443524e39" />
+
 
 
 - Configured internal networking between virtual machines
