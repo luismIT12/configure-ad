@@ -81,22 +81,23 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
   - Resource group : select the one we created
   - virtual name : create one base on your choice (ex: DC-1)
   - Region : select your region
+  - image: select windows server 2022 datacenter 
   - zone : Zone 1
   - size : at least 2 vcpu!
   - Create a user name & password for VM
-  - click next for networking configuration
-  - 
+  - Next till we get to network
+  -   Virtual network : we slecect the one we created
+  -   subnet : defualt 
+  - we click create !
 
 
     <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/97b35d5b-501e-4361-b8c6-848c9888fedc" />
 
     <img width="615" height="400" alt="image" src="https://github.com/user-attachments/assets/61e3ab22-776e-481b-aade-bd5443524e39" />
 
+    <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/890d4e5c-52c2-4b37-bd2a-4a1e77c48ae8" />
 
 
-
-- Created Azure virtual machines for the domain controller using :
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ad3cf520-2d69-4c0a-95e6-4229955d1ab4" />
 
 - Create Azure virtual machine for client using :
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e12d6b5c-3a1f-48ec-a65a-0be1ad5608aa" />
