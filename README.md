@@ -179,8 +179,37 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 ### Step 3: Active Directory Installation
 - Installed Active Directory Domain Services on Windows Server
-  
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/19135c8a-e185-4910-bd72-48b26de161e9" />
+
+- First we log into our DC-1 (windows server ),
+  - Open up remote connection on your windows computer , copy and paste public Ip adress and login
+
+  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/17e87b76-9f45-4169-a582-75d082d5397b" />
+
+ - Search for Server manger and open it
+   - Click add roles and features, click Next , Next
+   
+
+   <img width="419" height="480" alt="image" src="https://github.com/user-attachments/assets/b3d2a553-079c-4383-b815-88ba3d0d8445" />
+
+ 
+   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/f8e54d16-2d3a-4004-85bf-2967ca27b1ef" />
+
+- Next we select Active directory Domain services , and click add features
+
+  <img width="550" height="500" alt="image" src="https://github.com/user-attachments/assets/13e72cd3-3b6b-49e9-82d8-e4e6b4bc53a0" />
+
+- We click Next, Next and then select install
+
+  <img width="500" height="418" alt="image" src="https://github.com/user-attachments/assets/9255d741-5ce2-4038-90a2-696c0d039842" />
+
+- Once installed , we click close
+
+
+  <img width="588" height="413" alt="image" src="https://github.com/user-attachments/assets/480230bb-4883-471f-aac1-7ace50acd6bc" />
+
+
+
+
 
 - Promoted the server to a domain controller
 
