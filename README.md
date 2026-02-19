@@ -166,17 +166,6 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 
 
-
-
-
-
-
-
-
-
- 
-
-
 ### Step 3: Active Directory Installation
 - Installed Active Directory Domain Services on Windows Server
 
@@ -222,13 +211,22 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
  
   <img width="600" height="550" alt="image" src="https://github.com/user-attachments/assets/cbb19500-7729-4944-bffd-d1a4cc85b0f3" />
 
+ - Unselect "create dns delegration" and click next
+
+   <img width="525" height="414" alt="image" src="https://github.com/user-attachments/assets/3e5766a5-5816-44a4-bcfe-95f435ab39e9" />
+
+
+- We click Next , Next then install
+
+  <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/90431f8e-c0c2-44c9-885e-71cb48285326" />
 
 
 
+- After installtion is compelete, it will log you off automatically and restart VM, now we just log in to for confirmation
+    - Once logged in, you should see your server manager similar to below
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/f7ee804b-7a76-48bb-94da-95927edd6c5c" />
 
-- Configured DNS during domain setup
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab48be20-bc0c-485c-9a24-a8667ed1365f" />
 
 
 ### Step 4: Domain Configuration
@@ -244,7 +242,7 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 
 
-### Step 4: Client Domain Join
+### Step 5: Client Domain Join
 - Joined the Windows 10 virtual machine to the domain
 
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3cc69921-24d1-456c-a502-2222b971bef4" />
