@@ -207,13 +207,24 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
   <img width="588" height="413" alt="image" src="https://github.com/user-attachments/assets/480230bb-4883-471f-aac1-7ace50acd6bc" />
 
+- Next were going to set u a new forest as mydomain.com (can be anything if you like, just remember it)
+  - Top left corner click under flag icon to promte this server to domain controller 
+ 
+  <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7c141ad5-738d-450b-bbb8-0fb84efa8425" />
 
 
-
-
-- Promoted the server to a domain controller
+- Select add a new forest and type in mydomain.com
 
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e55bb77f-4d1d-477a-939b-990423d73013" />
+
+
+  - Once we click next, we have to create a password and repeat it again, click next
+ 
+  <img width="600" height="550" alt="image" src="https://github.com/user-attachments/assets/cbb19500-7729-4944-bffd-d1a4cc85b0f3" />
+
+
+
+
 
 - Configured DNS during domain setup
 
