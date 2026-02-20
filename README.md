@@ -261,42 +261,120 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
     - Next we give admin access to our user Bob_lee by adding him to  “Domain Admins” Security Group
         - right click under bob lee, click properties
           
-        <img width="525" height="380" alt="image" src="https://github.com/user-attachments/assets/022baa98-b576-4951-a6b2-d9ed8804f35c" />
+      <img width="525" height="380" alt="image" src="https://github.com/user-attachments/assets/022baa98-b576-4951-a6b2-d9ed8804f35c" />
 
-
-
-
-      
-
-
-
-
-     
-
+    - Next click under member of , Then click add, then type in "Domain Admins" then click check name then click ok
  
-    
+      <img width="625" height="400" alt="image" src="https://github.com/user-attachments/assets/632da9fa-13b7-4c94-a5e6-f6dc5553eba2" />
+
+    - Lastly log off the VM (DC-1 ) & were log back in but using our new user bob lee's credentials
+        - Use mydomain.com\Bob_lee & your , it should work
+
+    <img width="800" height="522" alt="image" src="https://github.com/user-attachments/assets/bfc4ed55-ad41-4177-beaf-0b5b31d1b05a" />
 
 
-
-
-
-
-- Created domain users using powershell and security groups
-
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/57e6f542-e246-4278-a7c9-661774ad92c3" />
-
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/66360302-d618-4f31-aa01-62c73a374255" />
 
 
 
 ### Step 5: Client Domain Join
-- Joined the Windows 10 virtual machine to the domain
+- Log on to The client 1 VM, verify the computer is "client 1"
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3cc69921-24d1-456c-a502-2222b971bef4" />
+<img width="501" height="358" alt="image" src="https://github.com/user-attachments/assets/4bc38567-eb3e-4f81-9ed5-5e87b3bbbca4" />
 
-- Logged in using a domain user account to verify functionality
+- Search for about under start " then click on the right rename pc , then change domain group, click on member of type in "mydomain.com" then ok
 
-<img width="396" height="159" alt="image" src="https://github.com/user-attachments/assets/dd845c14-7f58-4e09-b212-8206540edefb" />
+  <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/fb916173-13e3-4f70-8c2a-1b2dd0714222" />
+
+- Once ok is clicked, a pop up windows will ask for logon credentials , thats how you know it's correct
+    - provide the user's username & password (Bob_lee)
+ 
+  
+  <img width="644" height="369" alt="image" src="https://github.com/user-attachments/assets/e1738cfd-15b3-468a-8e39-e3bdba1c618b" />
+
+- The change take affect it will prompt to restart VM
+
+  <img width="500" height="274" alt="image" src="https://github.com/user-attachments/assets/c71c0e1d-37bd-4734-8744-b95b0e83c2f2" />
+
+- Now we log in to our DC-1 (sever VM to confirm Client 1 is a part of the domain)
+
+  - We type at the bottom " Active directory users & computers"
+ 
+    <img width="500" height="359" alt="image" src="https://github.com/user-attachments/assets/d5944b6d-bb3c-45fd-8d03-6e369722526d" />
+
+  - Under mydomain.com --> computers it should show --> client-1 (our Client VM)
+
+ <img width="510" height="308" alt="image" src="https://github.com/user-attachments/assets/c4862e17-5a85-4fe3-aab2-e20fe15d39cd" />
+
+
+### Step 6: Add Users (we adding using scripts as EX)
+- First we have to Setup Remote Desktop for non-administrative users on Client-1
+    - Log into Client-1 as mydomain.com\Bob_lee (your user created)
+    
+  <img width="507" height="367" alt="image" src="https://github.com/user-attachments/assets/c449da90-11e7-435b-8ab9-10b48fac5763" />
+
+  - search for about , then look for remote destop
+
+  <img width="550" height="384" alt="image" src="https://github.com/user-attachments/assets/cd34614b-4f9f-476d-892b-39f42a16c8fd" />
+
+
+- select users that access remotely, then click add, type in domain users, then click check names, then click ok
+
+<img width="554" height="268" alt="image" src="https://github.com/user-attachments/assets/b402fd59-b45e-497e-b3c9-56c8cf7473aa" />
+
+
+- You can now log into Client-1 as a normal, non-administrative user now
+
+
+ - Next were going to Create a bunch of additional users and attempt to log into client-1 with one of the users
+     - Log in to DC-1 (server ) as Bob_Lee or your (User) & Open PowerShell_ise as an administrator
+  
+   <img width="500" height="480" alt="image" src="https://github.com/user-attachments/assets/eb897648-2ce5-481e-85a9-a6383199bbbd" />
+
+   - Create a new File and paste the contents of the script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it
+
+   <img width="560" height="354" alt="image" src="https://github.com/user-attachments/assets/b858ec5d-b863-43ac-b01c-caa3a15602ca" />
+
+  - Once the script is pasted, click the green arrow run
+
+<img width="500" height="239" alt="image" src="https://github.com/user-attachments/assets/046e4b8e-6c6f-47f6-a612-2e40c76d1ea3" />
+
+- if you check users now under active directory you should see a bunch of new random one generated base on the script
+
+<img width="554" height="233" alt="image" src="https://github.com/user-attachments/assets/8d40fb49-ca7f-40b8-a8a1-39f68d4553e0" />
+
+- Now for testing, you can log in as a random user created (EX : i am using Bado.cicup), you have successfully completed this lab!
+
+  <img width="511" height="450" alt="image" src="https://github.com/user-attachments/assets/20b76bb5-6887-48d7-aa83-553ac0272a04" />
+
+
+  <img width="577" height="247" alt="image" src="https://github.com/user-attachments/assets/33fcf558-f396-4c9a-87a8-fee5738aa3e7" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 ---
