@@ -234,13 +234,52 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
     - Log into DC-1 Server
     - Click bottom left corner "start" then click window adminstivtie tools then select active directory users and Computers
  
-  <img width="600" height="541" alt="image" src="https://github.com/user-attachments/assets/14e5bf55-b287-4ca4-b150-2dc8e174c58f" />
+  <img width="500" height="441" alt="image" src="https://github.com/user-attachments/assets/14e5bf55-b287-4ca4-b150-2dc8e174c58f" />
+
+  - Once opened, we click under my domain then right click , select new OU (organizational unit)
+
+    <img width="464" height="305" alt="image" src="https://github.com/user-attachments/assets/d297b820-4e8d-46e0-8bf2-45cbad81973d" />
+
+   - We are Creating the new OU, were going to name it "_EMPLOYEES" , also a second one called "_ADMINS"
+ 
+     <img width="425" height="400" alt="image" src="https://github.com/user-attachments/assets/bf10426c-fa70-4d65-b8cd-9d1c66bb89cf" />
+
+     <img width="500" height="390" alt="image" src="https://github.com/user-attachments/assets/035b1088-0dec-4db7-addf-e7b1e8c55e46" />
+
+    - Next were going to create a new user ,First open up _ADMINS , right click then click New --> User
+     
+      <img width="500" height="383" alt="image" src="https://github.com/user-attachments/assets/169ec1bf-1f04-4c7c-8e95-2059199d3bd5" />
+
+    - Fill in the boxes with your prefer name, user, password, (example Mines is Bob Lee)
+      
+      <img width="500" height="383" alt="image" src="https://github.com/user-attachments/assets/be4634b5-da92-48c6-9385-e8bec6c06015" />
+
+    - Next Choose your password (unclick change password next login) then click next then finish
+ 
+      <img width="400" height="345" alt="image" src="https://github.com/user-attachments/assets/be2275d1-78be-4478-ae97-4244508c8ea2" />
+
+    - Next we give admin access to our user Bob_lee by adding him to  “Domain Admins” Security Group
+        - right click under bob lee, click properties
+          
+        <img width="525" height="380" alt="image" src="https://github.com/user-attachments/assets/022baa98-b576-4951-a6b2-d9ed8804f35c" />
+
+
+
+
+      
+
+
+
+
+     
+
+ 
+    
 
 
 
 
 
-  <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cc9057fa-0cba-475a-a1df-a6dc2daa5198" />
 
 - Created domain users using powershell and security groups
 
