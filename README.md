@@ -230,7 +230,15 @@ Once finished, you’ll land in the Azure Portal Dashboard like the image below 
 
 
 ### Step 4: Domain Configuration
-- Created Organizational Units (OUs)
+- Create a Domain Admin user within the domain
+    - Log into DC-1 Server
+    - Click bottom left corner "start" then click window adminstivtie tools then select active directory users and Computers
+ 
+  <img width="600" height="541" alt="image" src="https://github.com/user-attachments/assets/14e5bf55-b287-4ca4-b150-2dc8e174c58f" />
+
+
+
+
 
   <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cc9057fa-0cba-475a-a1df-a6dc2daa5198" />
 
